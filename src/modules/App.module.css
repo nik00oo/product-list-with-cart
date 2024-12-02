@@ -1,0 +1,156 @@
+body{
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 50px;
+    background-color: hsl(13, 31%, 94%)
+;
+}
+
+.product-list-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-list {
+    width:50%;
+}
+.cart{
+    margin-top:50px;
+    position: relative;
+    left: 100px;
+}
+h3{
+    color: hsl(14, 65%, 9%)
+
+
+}
+
+.desert-names{
+    color: darkgrey;
+}
+
+.cart {
+    width:50%;
+    margin-top:50px;
+    margin-right: 100px;
+
+}
+
+.cart-text-1 {
+    color: hsl(14, 86%, 42%);
+}
+
+.cart-text-2 {
+    color: #683737;
+}
+.img-size{
+    width:250px;
+    height:250px;
+    z-index: 0;
+    border-radius: 10px;
+}
+.add-list-btn{
+    border-radius:1rem;
+    margin-left:55px;
+    position:relative;
+    bottom:26px;
+    height:40px;
+    width:150px;
+    z-index: 1;
+    background-color: #ffff;
+    border: 1px solid gray;
+    transition-duration: 0.2s;
+}
+.add-list-btn:hover{
+    background-color : hsl(14, 86%, 42%);
+    cursor: pointer;
+}
+
+.price-tag{
+    color: hsl(14, 86%, 42%);
+}
+.wrap{
+    display:flex;
+    justify-content: space-between;
+    width:800px;
+}
+
+.finish-order-btn
+{
+    border: none;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: orangered;
+    border-radius: 15px;
+
+}
+.neworderbtn{
+    background-color: hsl(14, 86%, 42%);
+    width:400px;
+    height:50px;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    margin-left:50px;
+}
+.neworderbtn:hover{
+    cursor:pointer;
+}
+
+.finish-order-btn:hover{
+    cursor: pointer;
+
+}
+
+.modal
+{
+    display: flex;
+    position: absolute;
+    right:40%;
+    top: 20%;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width:500px;
+    height:400px;
+    z-index:100;
+    transition: 0.4s;
+
+
+   background-color: white;
+}
+.btn-input{
+    background-color: hsl(14, 86%, 42%);
+    margin-left:55px;
+    position:relative;
+    bottom:26px;
+    height:20px;
+    width:150px;
+    border: 1px solid gray;
+    z-index: 1;
+}
+
+p{
+    color: gray;
+}
+
+.confirmed-h1{
+    margin-left:30px;
+    color: hsl(14, 65%, 9%);
+    font-size: 30px;
+}
+
+.confirmed-p{
+    margin-left:30px;
+}
+
+.confirmed-ul{
+    margin-left:30px;
+}
+
+.confirmed-img{
+    margin-left:30px;
+}
